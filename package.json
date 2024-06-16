@@ -1,0 +1,31 @@
+{
+  "name": "coffeeapi",
+  "version": "1.0.0",
+  "description": "O coffeeApi e uma aplicação de **simulação do funcionamento de uma cafeteira**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "@fastify/cors": "^9.0.1",
+    "@fastify/swagger": "^8.14.0",
+    "@fastify/swagger-ui": "^4.0.0",
+    "D": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.0",
+    "fastify-type-provider-zod": "^1.2.0",
+    "tsx": "^4.15.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "prisma": "^5.15.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
